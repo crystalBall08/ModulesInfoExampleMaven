@@ -1,0 +1,4 @@
+--patch-module
+order=_
+--add-reads
+order=ALL-UNNAMED
