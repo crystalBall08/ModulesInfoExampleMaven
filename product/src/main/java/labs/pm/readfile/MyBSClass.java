@@ -11,6 +11,7 @@ public class MyBSClass {
             int count = 0;
             int read = 0;
             while ((read = fis.read(b)) != -1) {
+                System.out.println("read="+read);
                 fos.write(b);
                 count += read;
             }
