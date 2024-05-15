@@ -1,5 +1,6 @@
 package labs.pm;
 
+import labs.pm.channel.MyChannelClass;
 import labs.pm.readfile.MyBSClass;
 import org.junit.Test;
 
@@ -14,5 +15,8 @@ public class TestMain {
         args[1] = "C:\\Users\\ariel.pirante\\IdeaProjects\\ModulesInfoExampleMaven\\files\\file1.txt";
 
         MyBSClass.main(args);
+
+
+//        MyChannelClass.main(args);
     }
 }
